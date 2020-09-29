@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 
+
 class Buscador extends Component {
 
 	busquedaRef = React.createRef();
