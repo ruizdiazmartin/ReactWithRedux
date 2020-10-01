@@ -3,6 +3,7 @@ import Buscador from './componentes/Buscador'
 import Resultado from './componentes/Resultado'
 
 
+
 class App extends React.Component {
 
 	state = {
