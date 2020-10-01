@@ -9,13 +9,16 @@
 // export default store
 
 import { createStore, combineReducers } from 'redux'
+import buscador from './reducers/Buscador'
+import imagen from './reducers/Imagen'
+import paginacion from './reducers/Paginacion'
+import resultado from './reducers/Resultado'
 
 const reducer = combineReducers({
-	Buscador,
-	Imagen,
-	Paginacion,
-	Resultado
-
+	buscador,
+	imagen,
+	paginacion,
+	resultado
 })
 
 const store = createStore(reducer)
