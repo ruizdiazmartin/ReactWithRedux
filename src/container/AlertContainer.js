@@ -1,4 +1,5 @@
 import React from 'react'
+import AlertAction from '../actions/alertAction'
 
 //Redux
 import store from './store'
@@ -25,7 +26,7 @@ function mapStateToProps(state) {
 //Tengo acceso a mi accion
 function mapDispatchToProps(dispatch) {
 	return {
-		fetchNombrequeQuieras: bindActionCreators(tuActionCreado, dispatch),
+		fetchNombrequeQuieras: bindActionCreators(AlertAction, dispatch),
 	}
 }
 
