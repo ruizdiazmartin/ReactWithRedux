@@ -1,16 +1,15 @@
-import React from 'react'
+import React from 'react';
+import Alert from './containers/AlertContainer';
 
-//Redux
+//Redux3
+
 import store from './store'
 import { Provider } from 'react-redux'
 
 function App() {
 	return (
 		<Provider store={store}>
-			<div className="App">
-				<h1>React - Redux</h1>
-				<div className="alert">Alerta activada</div>
-			</div>
+			<Alert />
 		</Provider>
 	)
 }
