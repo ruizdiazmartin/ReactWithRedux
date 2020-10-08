@@ -13,12 +13,11 @@ class AlertContainer extends React.Component {
 		this.props.fetchNombrequeQuieras(event.target.value)
 	}
 	render() {
-		debugger;
+		//debugger;
 		return (
 			<AlertComponent label={this.props.alerts.textAlert} changeStatus={this.handleChangeStatus} />
 		)
 	}
-
 }
 
 //Hago referencia al estado que necesito.

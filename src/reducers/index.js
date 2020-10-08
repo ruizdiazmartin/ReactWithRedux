@@ -1,6 +1,4 @@
 import { combineReducers } from 'redux'
-
-//Reducers
 import alertReducers from './alertReducers'
 
 
